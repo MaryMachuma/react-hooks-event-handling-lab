@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Keypad from './components/Keypad'; // Import Keypad component
+import EyesOnMe from './components/EyesOnMe'; // Import EyesOnMe component
 
-import Keypad from './components/Keypad';
-import EyesOnMe from './components/EyesOnMe';
-
+// Render both components directly
 ReactDOM.render(
   <div>
     <Keypad />
